@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:  'Raleway', sans-serif;
+}
+
+.dp-menu ul li a{
+    font-size: 25px;
+    font-family:Almost before we knew it, we had left the ground ;
+    font-weight: bold;
+    
+}
+
+
+.topo{
+    width: 100%;
+    height:120px;
+    background-color: #ffffff;
+
+}
+
+:root {
+    --cor-fundo: #ffd2d7;
+    --cor-hover: #fc77f1;
+    --cor-primaria: rgb(0, 8, 4);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition:background.3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+
+
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    margin: auto;
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.texto-imagem{    
+    
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: linear-gradient(#ffd2d7be, #ffffff85),
+                  url("../imagem/RM\ estetica\ e\ Micropigmimentadora-pb_cort\ 2.jpg");    
+}
+
+
+
+.texto{
+    width: 500px; 
+    height: 750px;   
+   
+}
+
+.texto h1{
+    margin-top: 150px;    
+    width: 1274px; 
+    height: 260px;
+    font-size: 70px; 
+    color:#fc77f1;
+    display: flex;
+    font-family:Almost before we knew it, we had left the ground;
+    
+}
+
+.texto p{
+    width: 985px; 
+    height: 100px;
+    font-size: 30px;
+    font-family:Almost before we knew it, we had left the ground;
+    font-weight: bold;   
+   
+}
+
+
+.texto-imagem img{   
+    width: 400px;
+    margin-bottom: 25px;
+    margin-top: 25px;       
+    
+}
+
+.tds-cartoes{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.tds-cartoes content img{
+    border-radius: 5px;
+        
+    }
+
+.cartao{
+    width: 340px;
+    height: 420px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+
+}
+
+main{
+    background-color: #ffd2d7;
+    
+}
+.cor1 img{
+    width: 100%;
+    height: 222px;    
+    border-radius: 50%;
+
+}
+
+
+.cor2 img{
+    width: 100%;
+    height: 222px;
+    border-radius: 50%;  
+}
+
+.cor3 img{
+    width: 100%;
+    height: 222px; 
+    border-radius: 50%; 
+}
+
+.cor4 img{
+    width: 100%;
+    height: 222px; 
+    border-radius: 50%; 
+}
+
+.cor5 img{
+    width: 100%;
+    height: 222px;
+    border-radius: 50%;  
+    
+}
+
+.cor6 img{
+    width: 100%;
+    height: 222px; 
+    border-radius: 50%;
+}
+
+.hv_cartoes h3{
+    border-radius: 5px;
+    font-size: 35px;
+    font-family:Almost before we knew it, we had left the ground; 
+    
+    
+}
+
+.cartao_texto ul li{
+    width: 1005;
+    height: 25px;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 60px;
+    
+
+}
+
+
+h4{
+    padding-top: 20px;
+    padding: 5px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+.contact{
+    background-color: white;
+}
+
+.contact-title h2{
+    padding-top: 86px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+
+.contato input{
+    width: 40%;
+    height: 65px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd2d7;
+}
+
+.contato textarea{
+    width: 40%;
+    height: 165px;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd2d7;
+    
+
+}
+
+#btn-msg{
+    width: 40%;
+    height: 65px;
+    margin-top: 29px;
+    margin-bottom: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #0c0808;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+    cursor: pointer;
+}
+
+#btn-msg:hover{
+    background-color: #fc77f1;
+    box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.3);
+}
+
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    font-weight: 700;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    display:flex;
+    margin: 30px;    
+    
+}
+
+.link{
+    background-color: #ffd2d7;
+}
+
+@media(max-width: 1115px){
+    
+}
+    
+
+
+
+
+
+
